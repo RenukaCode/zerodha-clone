@@ -1,0 +1,50 @@
+.open-account {
+  padding: 80px 24px;
+  background: #fff;
+  text-align: center;
+}
+
+.open-account-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.open-account h2 {
+  font-size: 32px;
+  color: #424242;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.open-account p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 1.7;
+}
+
+.open-account-btn {
+  display: inline-block;
+  background: #387ed1;
+  color: #fff;
+  padding: 14px 36px;
+  font-size: 17px;
+  border-radius: 4px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.open-account-btn:hover {
+  background: #2b6cb0;
+}
+
+@media (max-width: 768px) {
+  .open-account h2 {
+    font-size: 24px;
+  }
+
+  .open-account p {
+    font-size: 15px;
+  }
+}
