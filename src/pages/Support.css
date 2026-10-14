@@ -1,0 +1,149 @@
+.support {
+  background: #fff;
+}
+
+/* Blue hero */
+.support-hero {
+  background: #387ed1;
+  color: #fff;
+  padding: 50px 24px 60px;
+}
+
+.support-hero-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.support-hero-container > h1 {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.support-hero-content {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 60px;
+}
+
+.support-hero-left h2 {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  line-height: 1.4;
+}
+
+.support-search {
+  width: 100%;
+  padding: 16px 20px;
+  font-size: 15px;
+  border: none;
+  border-radius: 4px;
+  font-family: inherit;
+  margin-bottom: 16px;
+}
+
+.support-search:focus {
+  outline: 2px solid #2b6cb0;
+}
+
+.support-quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.support-quick-links a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.support-quick-links a:hover {
+  opacity: 0.8;
+}
+
+.support-hero-right h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.support-hero-right ol {
+  padding-left: 20px;
+}
+
+.support-hero-right li {
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.support-hero-right a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Topics */
+.support-topics {
+  padding: 60px 24px;
+}
+
+.support-topics-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.support-topics-container > h2 {
+  font-size: 26px;
+  color: #424242;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.support-column h3 {
+  font-size: 18px;
+  color: #424242;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.support-column a {
+  display: block;
+  font-size: 14px;
+  color: #387ed1;
+  text-decoration: none;
+  margin-bottom: 10px;
+  transition: color 0.2s;
+}
+
+.support-column a:hover {
+  color: #2b6cb0;
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .support-hero-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .support-hero-left h2 {
+    font-size: 20px;
+  }
+
+  .support-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .support-topics-container > h2 {
+    font-size: 22px;
+  }
+}

@@ -1,0 +1,114 @@
+.pricing {
+  background: #fff;
+}
+
+/* Hero */
+.pricing-hero {
+  padding: 80px 24px 60px;
+  text-align: center;
+}
+
+.pricing-hero h1 {
+  font-size: 36px;
+  color: #424242;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.pricing-hero p {
+  font-size: 17px;
+  color: #666;
+}
+
+/* Cards */
+.pricing-cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 24px 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.pricing-card {
+  text-align: center;
+  padding: 20px;
+}
+
+.pricing-card h2 {
+  font-size: 72px;
+  color: #f5a623;
+  font-weight: 500;
+  margin-bottom: 24px;
+  line-height: 1;
+}
+
+.pricing-card h3 {
+  font-size: 22px;
+  color: #424242;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.pricing-card p {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.7;
+}
+
+/* Charges list */
+.pricing-charges {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 60px 24px;
+  border-top: 1px solid #eee;
+}
+
+.pricing-charges h2 {
+  font-size: 26px;
+  color: #424242;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.charges-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.charges-list li {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 14px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.charges-list li::before {
+  content: "•";
+  color: #424242;
+  position: absolute;
+  left: 0;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .pricing-hero h1 {
+    font-size: 28px;
+  }
+
+  .pricing-cards {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .pricing-card h2 {
+    font-size: 56px;
+  }
+
+  .pricing-charges h2 {
+    font-size: 22px;
+  }
+}

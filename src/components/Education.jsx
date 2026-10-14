@@ -12,8 +12,8 @@ const Education = () => {
           />
         </div>
 
-        <div className="education-right">
-          <h2>Free and open market education</h2>
+        <div className="education-right" >
+          <h2 >Free and open market education</h2>
 
           <div className="education-block">
             <p>
