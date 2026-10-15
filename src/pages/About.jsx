@@ -1,4 +1,5 @@
 import "./About.css";
+import founderImg from "../assets/founder.png";
 
 const About = () => {
   return (
@@ -59,7 +60,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Team */}
       <section className="about-team">
         <div className="about-team-container">
           <h2>People</h2>
@@ -67,11 +67,11 @@ const About = () => {
           <div className="about-team-grid">
             <div className="team-photo-wrapper">
               <img
-                src="https://zerodha.com/static/images/nithin-kamath.jpg"
-                alt="Nithin Kamath"
+                src={founderImg}
+                alt="Founder"
                 className="team-photo"
               />
-              <h3>Nithin Kamath</h3>
+              <h3>Renuka Bonam</h3>
               <p>Founder, CEO</p>
             </div>
 
